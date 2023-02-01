@@ -5,9 +5,9 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 
 const routes: Routes = [
-  {"path": '', component:AppComponent, pathMatch:"full"},
-  {"path": 'login', component:LoginComponent, pathMatch:"full"},
-  {"path": 'register', component:RegisterComponent, pathMatch:"full"}
+  {path: '', component:AppComponent, pathMatch:"full"},
+  {path: 'login', component:LoginComponent, pathMatch:"full"},
+  {path: 'register', component:RegisterComponent, pathMatch:"full"}
 ];
 
 @NgModule({
